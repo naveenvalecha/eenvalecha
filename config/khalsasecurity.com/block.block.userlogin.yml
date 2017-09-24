@@ -1,0 +1,20 @@
+uuid: dfb0e863-38ba-411f-a18a-fbd9c4ad806b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - khalsasecurity
+id: userlogin
+theme: khalsasecurity
+region: sidebar_second
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

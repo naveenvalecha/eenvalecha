@@ -1,0 +1,33 @@
+uuid: c1f7fb1a-671b-44d4-8135-f6a2b785265f
+langcode: en
+status: true
+dependencies:
+  module:
+    - fb_likebox
+  theme:
+    - khalsasecurity
+id: fblikebox
+theme: khalsasecurity
+region: sidebar_second
+weight: 0
+provider: null
+plugin: fb_likebox_block
+settings:
+  id: fb_likebox_block
+  label: 'FB Likebox'
+  provider: fb_likebox
+  label_display: '0'
+  url: 'https://www.facebook.com/khalsacctvtaraori'
+  app_id: ''
+  hide_header: 0
+  stream: 1
+  show_faces: 1
+  title: 'Khalsa CCTV Security Taraori'
+  width: '360'
+  height: '600'
+  hide_cta: 0
+  small_cta: ''
+  small_header: 0
+  adapt_container_width: 1
+  language: en_EN
+visibility: {  }

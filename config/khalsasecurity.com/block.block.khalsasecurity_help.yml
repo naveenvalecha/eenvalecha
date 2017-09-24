@@ -1,0 +1,22 @@
+uuid: 9922a338-fa1f-4dbe-82fc-4725037c688c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - khalsasecurity
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: khalsasecurity_help
+theme: khalsasecurity
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

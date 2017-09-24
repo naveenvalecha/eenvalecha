@@ -1,0 +1,54 @@
+uuid: bb191c11-c897-48db-b299-e99a1d8ed170
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lV1mdN-QRQT0C3PolNNkadhVXNoKHugCCDWUNCMZirE
+id: content_admin
+label: 'Content Admin'
+weight: 9
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access image_browser entity browser pages'
+  - 'access media overview'
+  - 'access media_browser entity browser pages'
+  - 'administer content types'
+  - 'administer media'
+  - 'administer media bundles'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create landing_page content'
+  - 'create media'
+  - 'create page content'
+  - 'create product content'
+  - 'delete all revisions'
+  - 'delete any landing_page content'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any product content'
+  - 'delete landing_page revisions'
+  - 'delete media'
+  - 'delete own landing_page content'
+  - 'delete own page content'
+  - 'delete own product content'
+  - 'delete page revisions'
+  - 'delete product revisions'
+  - 'edit any landing_page content'
+  - 'edit any page content'
+  - 'edit any product content'
+  - 'edit own landing_page content'
+  - 'edit own page content'
+  - 'edit own product content'
+  - 'revert all revisions'
+  - 'revert landing_page revisions'
+  - 'revert page revisions'
+  - 'revert product revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format rich_text'
+  - 'view all revisions'
+  - 'view landing_page revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view product revisions'

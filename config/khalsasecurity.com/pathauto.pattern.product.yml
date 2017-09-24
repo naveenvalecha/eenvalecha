@@ -1,0 +1,24 @@
+uuid: 5a5f525f-daf3-404f-a3a2-2a4e6366e162
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 3So3B2J9aEPmahUz0O811e42zcHWIV0r3BSQnG1U9Kg
+id: product
+label: Product
+type: 'canonical_entities:node'
+pattern: 'product/[node:title]'
+selection_criteria:
+  37a76551-c283-491d-9731-4d331201c675:
+    id: node_type
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 37a76551-c283-491d-9731-4d331201c675
+selection_logic: and
+weight: -5
+relationships: {  }

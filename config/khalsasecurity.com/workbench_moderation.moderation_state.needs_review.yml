@@ -1,0 +1,10 @@
+uuid: 37f3ac14-6f2d-461d-8d01-80f5e195963f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HtZgSbbcrtHAeiKKJGFMFmMcUKZLPumzYJce2-GFqQ8
+id: needs_review
+label: 'Needs Review'
+published: false
+default_revision: false

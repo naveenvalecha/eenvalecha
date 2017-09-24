@@ -1,0 +1,32 @@
+uuid: ee969330-75b4-4df6-8d8e-aa87099ca98a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.body
+    - field.field.node.product.field_product_media
+    - node.type.product
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: PSodQRkn0SR-TRXgtN301Akn1riO0HqBEbHsoEAzSQ8
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_product_media: true

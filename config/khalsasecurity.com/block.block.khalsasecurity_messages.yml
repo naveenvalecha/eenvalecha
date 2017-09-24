@@ -1,0 +1,22 @@
+uuid: fbd39160-b328-48a7-b9c3-81895f76adc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - khalsasecurity
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: khalsasecurity_messages
+theme: khalsasecurity
+region: content
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

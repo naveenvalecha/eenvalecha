@@ -1,0 +1,20 @@
+uuid: 74b4c7b5-d8e9-4994-80be-98b93a2bc5c3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - khalsasecurity
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: khalsasecurity_local_actions
+theme: khalsasecurity
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

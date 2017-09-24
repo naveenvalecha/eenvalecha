@@ -1,0 +1,22 @@
+uuid: 009430c0-da1b-49f6-a49d-71ea4c5c36bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - khalsasecurity
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: khalsasecurity_content
+theme: khalsasecurity
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

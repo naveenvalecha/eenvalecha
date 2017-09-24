@@ -1,0 +1,24 @@
+uuid: ea504224-848e-4c57-98c3-3a3b806897c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.product
+  module:
+    - text
+_core:
+  default_config_hash: ajeEFM82oP1rzmmpGWNwkIkar0GdXu3ZLIK5CEg5Npc
+id: node.product.body
+field_name: body
+entity_type: node
+bundle: product
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

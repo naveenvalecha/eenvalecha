@@ -1,18 +1,19 @@
 project:
   machine_name: eenvalecha
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: eenvalecha
+  human_name: 'Khalsa Security System'
   profile:
-    name: lightning
+    name: khalsa
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    - 'eenvalecha@svn-12800.prod.hosting.acquia.com:eenvalecha.git'
 drush:
   aliases:
-    remote: '${project.machine_name}.test'
+    remote: '${project.machine_name}.stg'
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'
@@ -26,9 +27,41 @@ modules:
   dev:
     enable: [acquia_connector, shield]
     uninstall: {  }
-  test:
+  stg:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+target-hooks:
+  frontend-setup:
+    dir: '${docroot}'
+    command: 'echo ''No frontend-setup configured.'''
+  frontend-build:
+    dir: '${docroot}'
+    command: 'echo ''No frontend build configured.'''
+  frontend-test:
+    dir: '${docroot}'
+    command: 'echo ''No post-setup build configured.'''
+  pre-config-import:
+    dir: '${docroot}'
+    command: 'echo ''No pre-config-import configured.'''
+  post-deploy-build:
+    dir: '${docroot}'
+    command: 'echo ''No post-deploy build configured.'''
+  post-setup-build:
+    dir: '${docroot}'
+    command: 'echo ''No post-setup build configured.'''
+  post-deploy:
+    dir: '${docroot}'
+    command: 'echo ''No post-deploy build configured.'''
+import: '${repo.root}/blt/custom.xml'
+cm:
+  strategy: config-split
+  core:
+    path: ../config
+    key: sync
+    deploy-key: sync
+    dirs: { sync: { path: '${cm.core.path}/khalsasecurity.com' } }
+multisites:
+  - khalsasecurity.com

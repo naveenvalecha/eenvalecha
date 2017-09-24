@@ -1,0 +1,14 @@
+uuid: f1e2f42e-7158-4913-8c87-0d69462712b6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tEt_wXvpRLtcPeYpTVRbPPW1Szd4ecVD05kaKPApu2o
+id: contact
+label: 'Contact Us'
+recipients:
+  - khalsacctv@gmail.com
+reply: ''
+weight: 0
+message: 'Thanks for contacting Us. We''ll reach you shortly.'
+redirect: /

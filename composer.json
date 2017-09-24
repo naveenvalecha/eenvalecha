@@ -5,7 +5,20 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^8.3"
+        "acquia/blt": "^8.3",
+        "drupal/bootstrap": "^3.0",
+        "roave/security-advisories": "dev-master",
+        "drupal-composer/drupal-security-advisories": "dev-master",
+        "drupal/newsplus_lite": "^1.0",
+        "drupal/bootstrap_business": "^1.0",
+        "drupal/simple_sitemap": "^2.0",
+        "drupal/google_analytics": "^2.0",
+        "drupal/security_review": "*",
+        "drupal/fb_likebox": "^2.0",
+        "drupal/views_slideshow": "^4.0",
+        "drupal/honeypot": "^1.0",
+        "drupal/smtp": "^1.0",
+        "drupal/disqus": "^1.0"
     },
     "require-dev": {},
     "extra": {
